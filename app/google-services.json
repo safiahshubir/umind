@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "45591627418",
+    "firebase_url": "https://umind-safiah-17164042.firebaseio.com",
+    "project_id": "umind-safiah-17164042",
+    "storage_bucket": "umind-safiah-17164042.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45591627418:android:a839b271b18cf2020d8123",
+        "android_client_info": {
+          "package_name": "com.safieulwy.umind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45591627418-85ben4cegigurss90n4eb9hd260iup62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4vEiqHm3PIpFqy6okgTUQJpBL_pIwKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45591627418-85ben4cegigurss90n4eb9hd260iup62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

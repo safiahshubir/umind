@@ -1,12 +1,7 @@
 package com.safieulwy.umind;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ActivityOptions;
 import android.content.Intent;
-import android.media.session.MediaSessionManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Pair;
@@ -16,6 +11,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DataSnapshot;
@@ -50,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         login_btn = findViewById(R.id.Login_btn);
 
        // sessionManager = new MediaSessionManager(getApplicationContext());
-  /*      login_btn.setOnClickListener(new View.OnClickListener() {
+        login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(username.getEditText().getText().toString().equals("safieulwy") && password.getEditText().getText().toString().equals("password")) {
@@ -63,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
 
-        });*/
+        });
 
         callSignUp.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

@@ -6,4 +6,5 @@
     <color name="lightgray">#ededed</color>
     <color name="circle">#ccffff</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="icon">#006666</color>
 </resources>

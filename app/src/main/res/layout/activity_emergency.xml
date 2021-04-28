@@ -1,9 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Emergency">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        //TASKBAR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/outline_account_circle_24"
+                android:layout_marginRight="300dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <!--PPUM-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/ppum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="+60166541263"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/call_PPUM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/background"
+                android:text="PUSAT PERUBATAN UNIVERSITI MALAYA (PPUM)"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--KLINIK PELAJAR-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/klinik"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="+60166541263"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/call_Klinik"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/background"
+                android:text="KLINIK PELAJAR UNIVERSITI MALAYA"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--KKM-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/kkm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+60166541263"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/call_KMM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/background"
+                android:text="KKM MENTAL TEAM"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--BEFRIEND-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/befriend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+60166541263"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/call_BEFRIEND"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/background"
+                android:text="BEFRIEND "
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--PSY-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/PSY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="+60166541263"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/call_PSY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/background"
+                android:text="PYSCHIATIC CLINIC UNIVERSITI MALAYA"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--EMERGENCY-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/sos999"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+60166541263"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/call_999"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/background"
+                android:text="EMERGENCY"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!--        //BOTTOMBAR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary">
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
